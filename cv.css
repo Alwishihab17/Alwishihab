@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+
+.name-title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.name-title p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.contact-profile, .education-experience {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact, .profile, .education, .experience, .skills {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact, .profile, .education, .experience, .skills:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "•";
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
